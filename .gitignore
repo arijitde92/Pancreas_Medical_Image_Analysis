@@ -51,5 +51,4 @@ coverage.xml
 
 # Project-specific: data and results (large files, generated outputs)
 data/
-results/
 checkpoints/
