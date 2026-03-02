@@ -4,6 +4,8 @@ Automated pancreas segmentation on abdominal CT scans using **SAM-Med3D-turbo**,
 
 **Inference is based on [SAM-Med3D](https://github.com/uni-medical/SAM-Med3D)** by Shanghai AI Lab.
 
+This repo also includes an alternative pipeline for **VISTA3DCT**, a 3D CT segmentation model from MONAI’s VISTA project, with dedicated scripts and outputs (`run_inference_vista3dct.py`, `results_VISTA3DCT/`). See the official VISTA3DCT implementation here: https://github.com/Project-MONAI/VISTA/tree/main/vista3d
+
 ---
 
 ## Repository Overview
@@ -11,7 +13,8 @@ Automated pancreas segmentation on abdominal CT scans using **SAM-Med3D-turbo**,
 | Component | Description |
 |-----------|-------------|
 | `convert_dicom_to_nifti.py` | Converts DICOM CT series to NIfTI (.nii.gz) format |
-| `run_inference.py` | Runs SAM-Med3D-turbo inference with interactive prompts from ground-truth |
+| `run_inference_sammed3d.py` | Runs SAM-Med3D-turbo inference with interactive prompts from ground-truth |
+| `run_inference_vista3dct.py` | Runs VISTA3DCT inference on CT volumes |
 | `compute_dice.py` | Computes Dice scores between predictions and ground-truth labels |
 | `extract_pred_slices.py` | Extracts sample slices with segmentation overlay for visualization |
 | `run_pipeline.sh` | End-to-end pipeline: DICOM→NIfTI → inference → Dice evaluation |
