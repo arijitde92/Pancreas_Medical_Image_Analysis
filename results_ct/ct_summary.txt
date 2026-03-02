@@ -1,0 +1,16 @@
+
+Case                      Dice
+--------------------------------
+  PANCREAS_0001         0.7897
+  PANCREAS_0002         0.7236
+  PANCREAS_0003         0.7593
+  PANCREAS_0004         0.7119
+  PANCREAS_0005         0.8065
+  PANCREAS_0006         0.8337
+  PANCREAS_0007         0.8281
+  PANCREAS_0008         0.8351
+  PANCREAS_0009         0.7076
+  PANCREAS_0010         0.8638
+--------------------------------
+  Mean                  0.7859
+  Std                   0.0540

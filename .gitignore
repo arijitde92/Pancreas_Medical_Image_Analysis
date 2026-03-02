@@ -1,0 +1,55 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+*.egg
+.Python
+MANIFEST
+
+# Virtual environments
+venv/
+env/
+.venv/
+env.bak/
+venv.bak/
+.env
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Testing / coverage
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+.pytest_cache/
+.hypothesis/
+nosetests.xml
+coverage.xml
+
+# Jupyter
+.ipynb_checkpoints/
+.jupyter/
+
+# Type checkers
+.mypy_cache/
+.dmypy.json
+.pyre/
+
+# Project-specific: data and results (large files, generated outputs)
+data/
+results/
+checkpoints/

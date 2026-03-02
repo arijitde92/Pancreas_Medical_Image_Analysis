@@ -1,0 +1,23 @@
+# SAM-Med3D Pancreas Segmentation — Python Dependencies
+#
+# Install instructions (fresh environment):
+#
+#   conda create -n sammed3d python=3.10 -y
+#   conda activate sammed3d
+#   pip install uv
+#   uv pip install torch==2.6.0 torchvision==0.21.0 torchaudio==2.6.0 \
+#                  --index-url https://download.pytorch.org/whl/cu124
+#   uv pip install -r requirements.txt
+
+torchio
+opencv-python-headless
+matplotlib
+prefetch_generator
+monai
+edt
+surface-distance
+medim
+nibabel
+SimpleITK
+pydicom
+requests

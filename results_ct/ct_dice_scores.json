@@ -1,0 +1,18 @@
+{
+  "per_case_dice": {
+    "PANCREAS_0001": 0.789707,
+    "PANCREAS_0002": 0.72364,
+    "PANCREAS_0003": 0.759337,
+    "PANCREAS_0004": 0.711929,
+    "PANCREAS_0005": 0.806459,
+    "PANCREAS_0006": 0.833731,
+    "PANCREAS_0007": 0.8281,
+    "PANCREAS_0008": 0.835057,
+    "PANCREAS_0009": 0.707638,
+    "PANCREAS_0010": 0.863835
+  },
+  "mean_dice": 0.7859433,
+  "std_dice": 0.05401353207308332,
+  "num_clicks": 5,
+  "num_cases": 10
+}
